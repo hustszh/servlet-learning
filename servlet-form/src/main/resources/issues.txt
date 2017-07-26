@@ -1,0 +1,12 @@
+1.GET方式（get方式提交的参数编码，只支持iso8859-1编码。）提交的参数中包含有中文字符时，The valid characters are defined in RFC 7230 and RFC 3986
+
+最新的tomcat6，7，8，9增加了新特性，就是严格按照 RFC 3986规范进行访问解析，
+而 RFC 3986规范定义了Url中只允许包含英文字母（a-zA-Z）、数字（0-9）、-_.~4个特殊字符以及所有保留字符
+(RFC3986中指定了以下字符为保留字符：! * ’ ( ) ; : @ & = + $ , / ? # [ ])。
+传入的参数中有"{"不在RFC3986中的保留字段中，所以会报这个错。
+解决办法：
+把非保留字字符做转义:
+（在客户端用java.net.URLEncoder.encode进行编码，替换掉url中的中文，
+在服务端由"ISO8859-1"编码转换为"UTF-8"编码：new String(request.getParameter("name").getBytes("ISO8859-1"),"UTF-8")），
+要么就是使用保留字字符，
+要么就是换比较底一点的tomcat版本。
