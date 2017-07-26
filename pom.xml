@@ -11,6 +11,7 @@
     <modules>
         <module>servlet-started</module>
         <module>servlet-form</module>
+        <module>servlet-httpservlet</module>
     </modules>
 
     <dependencies>
