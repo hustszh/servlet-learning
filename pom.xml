@@ -12,6 +12,8 @@
         <module>servlet-started</module>
         <module>servlet-form</module>
         <module>servlet-httpservlet</module>
+        <module>servlet-filter</module>
+        <module>servlet-exception</module>
     </modules>
 
     <dependencies>
