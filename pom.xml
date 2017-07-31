@@ -17,6 +17,7 @@
         <module>servlet-blazeds</module>
         <module>servlet-cookie</module>
         <module>servlet-httpsession</module>
+        <module>servlet-updownfile</module>
     </modules>
 
     <dependencies>
