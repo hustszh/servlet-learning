@@ -14,6 +14,9 @@
         <module>servlet-httpservlet</module>
         <module>servlet-filter</module>
         <module>servlet-exception</module>
+        <module>servlet-blazeds</module>
+        <module>servlet-cookie</module>
+        <module>servlet-httpsession</module>
     </modules>
 
     <dependencies>
