@@ -20,6 +20,7 @@
         <module>servlet-updownfile</module>
         <module>servlet-redirect</module>
         <module>servlet-counting</module>
+        <module>servlet-pagerefresh</module>
     </modules>
 
     <dependencies>
