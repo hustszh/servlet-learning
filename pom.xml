@@ -19,6 +19,7 @@
         <module>servlet-httpsession</module>
         <module>servlet-updownfile</module>
         <module>servlet-redirect</module>
+        <module>servlet-counting</module>
     </modules>
 
     <dependencies>
