@@ -18,6 +18,7 @@
         <module>servlet-cookie</module>
         <module>servlet-httpsession</module>
         <module>servlet-updownfile</module>
+        <module>servlet-redirect</module>
     </modules>
 
     <dependencies>
