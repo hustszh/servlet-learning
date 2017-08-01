@@ -22,6 +22,7 @@
         <module>servlet-counting</module>
         <module>servlet-pagerefresh</module>
         <module>servlet-email</module>
+        <module>servlet-locale</module>
     </modules>
 
     <dependencies>
