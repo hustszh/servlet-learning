@@ -21,6 +21,7 @@
         <module>servlet-redirect</module>
         <module>servlet-counting</module>
         <module>servlet-pagerefresh</module>
+        <module>servlet-email</module>
     </modules>
 
     <dependencies>
